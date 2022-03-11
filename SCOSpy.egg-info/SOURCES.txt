@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SCOS/SCOS.py
+SCOS/__init__.py
+SCOSpy.egg-info/PKG-INFO
+SCOSpy.egg-info/SOURCES.txt
+SCOSpy.egg-info/dependency_links.txt
+SCOSpy.egg-info/requires.txt
+SCOSpy.egg-info/top_level.txt
