@@ -1,3 +1,6 @@
 /.DS_Store
 *.pyc
 venv/*
+build/*
+src/SCOSpy.egg-info/*
+.gitignore

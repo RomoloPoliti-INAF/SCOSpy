@@ -103,6 +103,7 @@ def Time(sec, mlsec):
 
 
 class SCOS:
+    __version__ = "0.4.5"
     def __init__(self, data):
         self.CPH = SCOS_CPH(data[0:120])
         if self.CPH.PType['id'] == 1:
