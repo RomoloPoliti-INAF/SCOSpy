@@ -1,8 +1,9 @@
 # SCOSpy
+![Version 0.4.5](https://img.shields.io/badge/version-0.4.5-blue)
 
 SCOSpy is a python library for the Satellite Control and Operation System 2000 (SCOS-2000) header written as hexadecimal string.
 
-Current version is 0.4.4
+Current version is 0.4.5
 
 ## Library Installation
 ```bash
@@ -221,29 +222,4 @@ If the _**CHP.PType**_ is equal to 3, the packet is a event. In this case is pre
 
 **NB:** the EPH is not yet implemented.
 
-## Change Log
 
-### Version 0.4.3
-+ fixed a data type in te database
-
-### Version 0.4.0
-+ the fields of the subobject are now dict type.
-+ improved prefomace
-+ implemented the method to add a new mission dinamically.
-
-### Version 0.3.0
-+ tested on Python 3
-+ minor bug fixef
-
-### Version 0.2.2
-+ bug fix, old call to database removed
-+ update of the user manual
-
-### Version 0.2.1
-
-+ minor bugs fixed
-
-### Version 0.2.0
-
-+ Introduced the TCHP
-+ First version of the README file.

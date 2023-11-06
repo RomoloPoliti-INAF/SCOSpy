@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/SCOS/SCOS.py
+src/SCOS/__init__.py
+src/SCOSpy.egg-info/PKG-INFO
+src/SCOSpy.egg-info/SOURCES.txt
+src/SCOSpy.egg-info/dependency_links.txt
+src/SCOSpy.egg-info/requires.txt
+src/SCOSpy.egg-info/top_level.txt

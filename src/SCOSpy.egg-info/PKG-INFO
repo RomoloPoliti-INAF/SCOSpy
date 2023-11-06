@@ -1,24 +1,25 @@
 Metadata-Version: 2.1
 Name: SCOSpy
-Version: 0.4.4
+Version: 0.4.5
 Summary: Python library to read the SCOS-2000 header
-Home-page: https://www.ict.inaf.it/gitlab/romolo.politi/scospy
-Author: Romolo Politi
-Author-email: Romolo.Politi@inaf.it
-License: General Public License v3 (GPLv3)
-Platform: UNKNOWN
+Author-email: Romolo Politi <romolo.politi@inaf.it>
+License: GNU GPL ver3
+Project-URL: Repository, https://github.com/RomoloPoliti-INAF/SCOSpy
 Classifier: Programming Language :: Python :: 3.9
 Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
+Requires-Python: >=3.11
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: bitstring
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
 
 # SCOSpy
 
 SCOSpy is a python library for the Satellite Control and Operation System 2000 (SCOS-2000) header written as hexadecimal string.
 
-Current version is 0.4.4
+Current version is 0.4.5
 
 ## Library Installation
 ```bash
@@ -239,6 +240,10 @@ If the _**CHP.PType**_ is equal to 3, the packet is a event. In this case is pre
 
 ## Change Log
 
+## Version 0.4.5
+
++ fixed bug and implement pyproject
+
 ### Version 0.4.3
 + fixed a data type in te database
 
@@ -263,5 +268,3 @@ If the _**CHP.PType**_ is equal to 3, the packet is a event. In this case is pre
 
 + Introduced the TCHP
 + First version of the README file.
-
-
