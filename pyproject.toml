@@ -1,24 +1,29 @@
 [project]
 name = "SCOSpy"
 authors = [{name = "Romolo Politi", email = "romolo.politi@inaf.it"}]
-version = "0.4.5"
+version = "0.5.0"
 description="Python library to read the SCOS-2000 header"
 requires-python = ">=3.11"
 license = {text = "GNU GPL ver3"} 
 dependencies = [
-    "bitstring"
+    "bitstring (>=4.3.1,<5.0.0)"
 ]
 classifiers=[
-    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
 readme = "README.md"
 
+[tool.poetry]
+packages = [{include = "SCOSpy",from ="src"}]
 
 [project.urls]
 Repository = "https://github.com/RomoloPoliti-INAF/SCOSpy"
-
+Changelog = "https://github.com/RomoloPoliti-INAF/SCOSpy/CHANGELOG.md"
 
 
 [project.optional-dependencies]

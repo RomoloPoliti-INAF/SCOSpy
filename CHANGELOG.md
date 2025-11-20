@@ -1,5 +1,10 @@
 # SCOSSpy Change Log
 
+## Version 0.5.0
+
+- update dependencies 
+- tests for python 3.14
+
 ## Version 0.4.5
 
 + fixed bugs and implement pyproject

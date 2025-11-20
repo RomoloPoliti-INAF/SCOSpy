@@ -1,9 +1,9 @@
 # SCOSpy
-![Version 0.4.5](https://img.shields.io/badge/version-0.4.5-blue)
+![Version 0.5.0](https://img.shields.io/badge/version-0.5.0-blue)
 
 SCOSpy is a python library for the Satellite Control and Operation System 2000 (SCOS-2000) header written as hexadecimal string.
 
-Current version is 0.4.5
+Current version is 0.5.0
 
 ## Library Installation
 ```bash
